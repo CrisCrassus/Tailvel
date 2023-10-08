@@ -17,7 +17,11 @@ This script will download and setup a Laravel project with Tailwind and Vue 3 re
 #### Changelog
 ##### Version 0.0.1
 - Added the ability to automatically install Tailwind and Vue 3 to Laravel 10
-
+##### Version 0.0.2
+- Cleaned up the script to look at resources which can individual be configured
+- These are stored in the tailvel_resources.zip, which is opened on the script start and then remove for clean-up
+- Also now checking that NODE is installed and offers the choice to use npm or yarn
+  
 ##### Future Plans
 - The ability to run the laravel create command with laravel packages such as '--breeze'
 - A more userfriendly check that looks to see if you are running this for the first time and will do a configuration run for you. 
