@@ -62,6 +62,17 @@ echo ' '
 echo '------------------------------------'
 echo ' '
 cd $TAILVEL_TARGET_DIRECTORY
+
+laravel -v &> /dev/null
+
+# Check the exit status of the yarn command
+if [ $? -ne 0 ]; then
+    composer create-project laravel/laravel ${project_name}
+else
+    laravel new ${project_name}
+fi
+
+
 laravel new ${project_name}
 cd ${project_name}
 composer install
