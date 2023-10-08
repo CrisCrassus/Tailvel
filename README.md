@@ -1,5 +1,5 @@
 # Tailvel
-## Making setting up the Laravel Vue Stack easy
+## Making setting up the Laravel Tailwind Vue Stack easier
 
 This script will download and setup a Laravel project with Tailwind and Vue 3 ready to go.  Once the project is loaded, you can jump straight into Dev work without the hassle of setting things up.
 
