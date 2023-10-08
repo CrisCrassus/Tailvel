@@ -65,7 +65,7 @@ cd $TAILVEL_TARGET_DIRECTORY
 
 laravel -v &> /dev/null
 
-# Check the exit status of the yarn command
+# Check for laravel installer
 if [ $? -ne 0 ]; then
     composer create-project laravel/laravel ${project_name}
 else
