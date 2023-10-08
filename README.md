@@ -6,10 +6,13 @@ This script will download and setup a Laravel project with Tailwind and Vue 3 re
 ### Requirements
 - PHP 8.1
 - Node 19
-- Yarn package installer
+- (Optional) Yarn package installer
 - (Optional) The 'code' snippet for VS Code
 
 ### Setup
+- In order for this to work properly, you will need to set up two environment variables: TAILVEL_ROOT_DIRECTORY & TAILVEL_TARGET_DIRECTORY.
+- TAILVEL_ROOT_DIRECTORY should point to where you have the tailvel.sh and tailvel_resources.zip.
+- TAILVEL_TARGET_DIRECTORY must point to where you want you Laravel project to be installed.  The script will not run without these set.
 - On line 2, of the script, define your desired project parent directory.
 - A good step is to run place this script in your path or bin root with a symlink so it can be run from anywhere
 - Run 'tailvel.sh' in any UNIX based terminal and you're good to go.
