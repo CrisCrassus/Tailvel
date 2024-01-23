@@ -5,7 +5,8 @@ This script will download and setup a Laravel project with Tailwind and Vue 3 re
 
 ### Requirements
 - PHP 8.1
-- Node 19
+- Node 18 or higher
+- Node Version Manager (NVM)
 - (Optional) Yarn package installer
 - (Optional) The 'code' snippet for VS Code
 
